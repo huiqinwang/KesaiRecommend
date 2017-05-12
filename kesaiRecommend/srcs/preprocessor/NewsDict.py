@@ -1,5 +1,7 @@
 # -*- coding:UTF-8 -*-
 import  csv
+
+# 创建咨询字典{item_name:item_id}
 class NewsDict:
 
     def news_dict(self):

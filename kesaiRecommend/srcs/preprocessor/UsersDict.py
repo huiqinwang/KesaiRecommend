@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
 
+# 创建用户字典：{user_name:user_id}
 class UsersDict:
 
     def users_dict(self):
@@ -21,6 +22,8 @@ class UsersDict:
             users_dict.setdefault(users_data[i-1],"")
             users_dict[users_data[i-1]] = str(i)
         return  users_dict
+
+
 
 if __name__ == "__main__":
     users = UsersDict()
